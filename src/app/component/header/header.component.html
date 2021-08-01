@@ -1,0 +1,21 @@
+<!-- <mat-toolbar color="primary">
+    <div>
+        <button mat-icon-button class="example-icon favorite-icon" aria-label="Example icon-button with heart icon">
+            <mat-icon>favorite</mat-icon>
+        </button>
+        <span class="example-icon" aria-hidden="false">{{title}}</span>
+    </div>
+</mat-toolbar> -->
+
+<mat-toolbar color="primary">
+
+    <mat-toolbar-row>
+        <div>
+            <button mat-flat-button color="primary" [routerLink]="['']">
+                <a><img src='https://raw.githubusercontent.com/hraverkar/MusicPlayer/master/src/assets/angular-white-transparent.svg'
+                        width="35px" height="35px" alt="Italian Trulli"></a> {{title}}</button>
+            <span class="example-spacer"></span>
+        </div>
+        <mat-icon class="example-icon" aria-hidden="false" aria-label="Example user verified icon">http</mat-icon>
+    </mat-toolbar-row>
+</mat-toolbar>
